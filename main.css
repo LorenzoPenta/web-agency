@@ -116,7 +116,8 @@ nav ul li a:hover {
   justify-content: center;
 }
 .banner-btn button {
-  margin: 0.5rem;
+  margin: 0.4rem;
+  width: 14rem;
 }
 .banner-btn button:hover {
   color: var(--mainwhite);
