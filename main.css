@@ -85,11 +85,11 @@ nav ul li a:hover {
   color: var(--mainwhite);
   font-style: italic;
 }
-@media screen and (max-width:600px){
-.banner-text {
-  font-size: 60px;
-  text-align: center;
-}
+@media screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 60px;
+    text-align: center;
+  }
 }
 .banner-underline {
   width: 200px;
@@ -111,13 +111,14 @@ nav ul li a:hover {
   border: 2px solid var(--mainyellow);
   transition: var(--maintransition);
 }
-@media screen and (max-width:600px){
-.banner-btn{
-  justify-content: center;
-}
-.banner-btn button {
-  margin: 0.4rem;
-  width: 14rem;
+@media screen and (max-width: 600px) {
+  .banner-btn {
+    justify-content: center;
+  }
+  .banner-btn button {
+    margin: 0.4rem;
+    width: 14rem;
+  }
 }
 .banner-btn button:hover {
   color: var(--mainwhite);
